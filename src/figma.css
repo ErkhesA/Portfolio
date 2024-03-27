@@ -1,0 +1,537 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+html {
+  scroll-behavior: smooth;
+}
+#navbar {
+  height: 49px;
+  margin-top: 41px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#navbar_logo {
+  height: 50px;
+}
+#navbar_items {
+  display: inline-flex;
+  padding: 0px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 56px;
+  color: #f2f2f2;
+}
+#Projects {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+#About_me {
+  color: inherit;
+  font-family: Inter sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+#Services {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  text-decoration: none;
+}
+#navbar_resume {
+  display: flex;
+  width: 102px;
+  padding: 12px 0px;
+  margin-right: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#body_text {
+  margin-left: 120px;
+  margin-top: 260px;
+}
+#my_name_is {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 7.5px;
+  font-family: Inter;
+}
+#minus {
+  width: 16px;
+  height: 2px;
+  font-size: 16px;
+}
+#Erkhes {
+  color: white;
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#Ankhbayar {
+  color: #10ca52;
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#body_paragraph {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  display: flex;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  width: 538px;
+}
+#Muscle_man {
+  height: 700px;
+  width: fit-content;
+  padding-left: 200px;
+}
+#links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  padding-top: 150px;
+}
+#About-me2 {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#body_paragraph_2 {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+#skills {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px; /* 136.111% */
+}
+#Web_Dev {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px; /* 175% */
+}
+#html {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+#Ui-Ux {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24.5px; /* 175% */
+}
+#Sketch {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.5px;
+}
+#image2 {
+  height: 600px;
+  width: fit-content;
+  padding-left: 60px;
+}
+#body2 {
+  height: 100vh;
+  width: 100vw;
+  padding-top: 100px;
+}
+#bodytext_2 {
+  padding-left: 170px;
+}
+.green_header {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 7.5px;
+}
+.header_text {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#body3 {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 800px;
+}
+#container3 {
+  width: 80vw;
+  height: 60vh;
+}
+#website_projects {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+#apple_dad {
+  background-color: #fafafa;
+  height: 402px;
+  width: 361px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+#apple_laptop {
+  height: 240.572px;
+  width: 361px;
+  background-color: #fafafa;
+}
+#apple_logo {
+  width: 105px;
+  height: 105px;
+  flex-shrink: 0;
+  padding-top: 44px;
+  padding-left: 140px;
+}
+#tesla_web_container {
+  display: flex;
+  height: 402px;
+  width: 361px;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #e82127;
+  margin-left: 56px;
+}
+#tesla_web_image {
+  padding-top: 71px;
+  width: 361px;
+  height: 280px;
+}
+#playstation_web_container {
+  width: 361px;
+  height: 402px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 56px;
+}
+#playstation_web_image {
+  padding-top: 111px;
+  width: 319.737px;
+  height: 180px;
+  padding-left: 19px;
+  padding-right: 22.3px;
+}
+#body4 {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+#container4 {
+  width: 80vw;
+  height: 60vh;
+}
+#code_languages_container {
+  width: 1195px;
+  height: 402px;
+  margin-top: 105px;
+  flex-direction: row;
+  display: flex;
+  gap: 56px;
+  border-radius: 8px;
+}
+#html {
+  width: 361px;
+  height: 402px;
+  border-radius: 8px;
+  background: #252526;
+}
+#css {
+  width: 361px;
+  height: 402px;
+  border-radius: 8px;
+  background: #252526;
+}
+#js {
+  width: 361px;
+  height: 402px;
+  border-radius: 8px;
+  background: #252526;
+}
+.language_images {
+  width: 95.37px;
+  height: 103px;
+  padding-left: 133px;
+  padding-top: 66px;
+}
+.language_text_header {
+  color: #10ca52;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 53.2px; /* 147.778% */
+  padding-left: 27px;
+}
+.language_text {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  margin-left: 27px;
+}
+#body5 {
+  height: 80vh;
+  width: 100vw;
+}
+#body_container_5 {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: row;
+}
+#contact_list {
+  height: 400px;
+  width: 390px;
+  margin-left: 140px;
+}
+#contact_header {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 61.646px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#contact_email {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 190px;
+  height: 30px;
+}
+#contact_phone_number {
+  color: var(--gray-6, #f2f2f2);
+  font-family: Plus Jakarta Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 190px;
+  height: 30px;
+}
+
+#instagram2 {
+  width: 24px;
+  height: 24px;
+  margin-top: 5px;
+}
+#linkedin_2 {
+  width: 24px;
+  height: 24px;
+}
+#contact_linkedin_email_container {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-top: 17px;
+}
+#contact_twitter_phone_container {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-top: 10px;
+}
+#links2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 200px;
+  padding-top: 50px;
+}
+#instagram3 {
+  width: 24px;
+  height: 24px;
+}
+#github2 {
+  width: 24px;
+  height: 24px;
+}
+#twitter2 {
+  width: 24px;
+  height: 24px;
+}
+#linkedin3 {
+  width: 24px;
+  height: 24px;
+}
+#navbar_resume_2 {
+  display: inline-flex;
+  width: 102px;
+  padding: 10px 0px;
+  margin-top: 66px;
+  margin-right: 60px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid #10ca52;
+  border-radius: 8px;
+}
+#input_name {
+  width: 698.285px;
+  height: 58.191px;
+  flex-shrink: 0;
+  border-radius: 9.698px;
+  background: #252526;
+  border: none;
+  color: #fff;
+  padding-left: 29.1px;
+}
+#input_email {
+  background-color: #252526;
+  width: 698.285px;
+  height: 58.191px;
+  flex-shrink: 0;
+  border-radius: 9.698px;
+  border: none;
+  color: #fff;
+  margin-top: 28px;
+  border-color: none;
+  padding-left: 29.1px;
+}
+#input_message {
+  background-color: #252526;
+  width: 698.285px;
+  height: 209.726px;
+  flex-shrink: 0;
+  border-radius: 9.698px;
+  border-color: #252526;
+  color: #fff;
+  padding-left: 29.1px;
+  padding-top: 19.4px;
+  margin-top: 28px;
+}
+#input_parent {
+  color: #fff;
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#input_submit_container {
+  width: 735px;
+  padding-left: 105px;
+}
+::placeholder {
+  color: #fff;
+  opacity: 1; /* Firefox */
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #fff;
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #fff;
+  font-family: Inter;
+  font-size: 16.972px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+textarea {
+  resize: none;
+}
+#input_submit {
+  border-radius: 8px;
+  border: 1px solid #10ca52;
+  display: inline-flex;
+  padding: 12px 27px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 56px;
+  margin-left: 312px;
+}
+#finalProject {
+  width: 1000px;
+  height: 560px;
+  display: flex;
+  border-radius: 8px;
+}
+#final_project {
+  height: 280px;
+}
