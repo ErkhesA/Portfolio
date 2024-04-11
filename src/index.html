@@ -222,6 +222,12 @@
             />
           </a>
         </div>
+
+        <div id="blogwebCont">
+          <a href="https://pineconeblogwebsite.vercel.app/" target="_blank">
+            <img src="Screenshot 2024-04-10 at 5.51.48 PM.png" id="blogweb">
+          </a>
+        </div>
       </div>
     </div>
     <!-- 4th page -->
@@ -394,30 +400,54 @@
           </div>
         </div>
         <!-- input -->
-        <div id="input_submit_container">
-          <div id="input_parent">
-            <div>
-              <input type="text" placeholder="Name" id="input_name" />
+        <form id="form">
+          <div id="input_submit_container">
+            <div id="input_parent">
+              <div>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  id="input_name"
+                  name="from_name"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  placeholder="Email"
+                  id="input_email"
+                  name="from_email"
+                />
+              </div>
+              <div>
+                <textarea
+                  type="text"
+                  placeholder="Message"
+                  id="input_message"
+                  name="message"
+                ></textarea>
+              </div>
             </div>
-            <div>
-              <input type="text" placeholder="Email" id="input_email" />
-            </div>
-            <div>
-              <textarea
-                type="text"
-                placeholder="Message"
-                id="input_message"
-              ></textarea>
-            </div>
+            <!-- submit button -->
+            <button type="submit" id="send-button">
+              <span style="color: white; font-family: Inter; font-size: 14px"
+                >Submit</span
+              >
+            </button>
           </div>
-          <!-- submit button -->
-          <div id="input_submit">
-            <span style="color: white; font-family: Inter; font-size: 14px"
-              >Submit</span
-            >
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   </body>
+
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("PHmnlgEfMlu8JBTfF");
+    })();
+  </script>
+  <script src="index.js"></script>
 </html>
