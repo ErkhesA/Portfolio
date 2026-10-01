@@ -16,7 +16,6 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
 }
 #navbar_logo {
   height: 50px;
@@ -28,7 +27,6 @@ html {
   align-items: center;
   gap: 56px;
   color: #f2f2f2;
-  border: 2px solid red;
 }
 #Projects {
   color: var(--gray-6, #f2f2f2);

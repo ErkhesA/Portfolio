@@ -1,31 +1,21 @@
-const form = document.getElementById("form");
-const btn = document.getElementById("send-button");
-const statusEl = document.getElementById("form-status");
+const btn = document.getElementById('send-button');
 
-form.addEventListener("submit", function (event) {
-  event.preventDefault();
+document.getElementById('form')
+ .addEventListener('submit', function(event) {
+   event.preventDefault();
 
-  btn.disabled = true;
-  btn.textContent = "Sending...";
-  statusEl.className = "";
-  statusEl.textContent = "";
+   btn.value = 'Sending...';
 
-  emailjs
-    .sendForm("service_fwq85cr", "template_4a1t1qd", this)
-    .then(
-      () => {
-        statusEl.className = "ok";
-        statusEl.textContent = "Thanks! Your message was sent.";
-        form.reset();
-      },
-      () => {
-        statusEl.className = "err";
-        statusEl.textContent =
-          "Something went wrong. Please email me directly instead.";
-      }
-    )
-    .finally(() => {
-      btn.disabled = false;
-      btn.textContent = "Send message";
+   const serviceID = 'service_fwq85cr';
+   const templateID = 'template_4a1t1qd';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      alert('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      alert(JSON.stringify(err));
     });
+    this.reset();
 });
